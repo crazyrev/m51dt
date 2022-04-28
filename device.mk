@@ -22,7 +22,7 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlayoverlay-havoc
+    $(DEVICE_PATH)/overlay-havoc
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
