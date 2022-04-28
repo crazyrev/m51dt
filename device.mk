@@ -22,13 +22,13 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlayoverlay-havoc
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage/lineage-sdk \
-    $(DEVICE_PATH)/overlay-lineage/packages/apps/Snap
+    $(DEVICE_PATH)/overlay-havoc/lineage-sdk \
+    $(DEVICE_PATH)/overlay-havoc/packages/apps/Snap
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
